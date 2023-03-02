@@ -1,0 +1,54 @@
+{
+	"$url": "admin/store-admin/commodity/pub/getList",
+	"data": {
+		"formData": {
+			"user_id": "001"
+		},
+		"columns": [{
+			"key": "name",
+			"title": "名称",
+			"type": "text",
+			"width": 160,
+			"mode": "%%"
+		}, {
+			"key": "goods_thumb",
+			"title": "图片地址",
+			"type": "text",
+			"width": 180,
+			"mode": "%%"
+		}, {
+			"key": "category_id",
+			"title": "分类",
+			"type": "text",
+			"width": 180,
+			"mode": "%%"
+		}, {
+			"key": "month_sell_count",
+			"title": "月销量",
+			"type": "int",
+			"width": 120,
+			"mode": "="
+		}, {
+			"key": "price",
+			"title": "价格",
+			"type": "int",
+			"width": 120,
+			"mode": "="
+		}, {
+			"key": "add_date",
+			"title": "上架时间",
+			"type": "time",
+			"width": 160,
+			"mode": "%%"
+		}, {
+			"key": "last_modify_date",
+			"title": "最后修改时间",
+			"type": "time",
+			"width": 160,
+			"mode": "%%"
+		}],
+		"pageIndex": 1,
+		"pageSize": 10
+	},
+	"uniIdToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIwMDEiLCJyb2xlIjpbImFkbWluIl0sInBlcm1pc3Npb24iOltdLCJpYXQiOjE2NzcyMjgzNjYsImV4cCI6MTY3NzgzMzE2Nn0.NWu3NuNVhRri_SzR6u5uA8SYZmMWlpouGgM_ulcCbUU"
+}
